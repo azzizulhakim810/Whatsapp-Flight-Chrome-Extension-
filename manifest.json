@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Whatsapp Flight",
+  "description": "Send Message to Multiple People Easily",
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
