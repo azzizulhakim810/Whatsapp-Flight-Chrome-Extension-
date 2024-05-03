@@ -1,0 +1,19 @@
+* {
+  padding: 10px;
+  width: 400px;
+  margin: auto;
+}
+.ext-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 30px;
+}
+
+p {
+  font-size: 16px;
+  width: 100%;
+  overflow: hidden;
+}
