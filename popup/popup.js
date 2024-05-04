@@ -8,7 +8,29 @@
   }); */
 
 // Show Cookies
-chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+/* chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+  // const arrayOfCookie = message?.cookies
+  // .split(";")
+  // .map((cookie) => cookie.split("="));
+
+  //   const makePair = arrayOfCookie.reduce(
+  //   (accumulator, [key, value]) => ({
+  //     ...accumulator,
+  //     [key.trim()]: decodeURIComponent(value),
+  //   }),
+  //   {}
+  // );
+
+  // const eachCookie = message?.cookies.split(";").map((cookie) => cookie);
+
   const cookieContainer = document.getElementById("cookies");
-  cookieContainer.innerText = message.cookies;
-});
+  cookieContainer.innerHTML = message.cookies;
+}); */
+
+/* chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+  if (message.cookies) {
+    // console.log(message.cookies);
+    const cookieContainer = document.getElementById("cookies");
+    cookieContainer.textContent = JSON.stringify(message.cookies, null, 2);
+  }
+}); */
