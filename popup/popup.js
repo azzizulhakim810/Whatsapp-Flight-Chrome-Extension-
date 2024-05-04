@@ -9,6 +9,7 @@
 
 // Show Cookies
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+  // Split to show
   // const arrayOfCookie = message?.cookies
   // .split(";")
   // .map((cookie) => cookie.split("="));
